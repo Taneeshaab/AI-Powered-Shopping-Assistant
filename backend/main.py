@@ -58,8 +58,7 @@ processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
 
 ## LLM CONFIG
-HF_API_KEY = "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"
-PINECONE_API_KEY = "pcsk_3uREgt_4HQhSbEi9hZjRkoURzXJQxG3MLagkb8u18hGtJUYkhFDS3yGTi41NUMwxFt2Ufy"
+
 INDEX_NAME = "fashion-products-clip"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
